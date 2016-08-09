@@ -1,0 +1,4811 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">79%</span>
+        </h1>
+
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+
+<div id="index">
+    <table class="index">
+        <thead>
+            
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>116977</td>
+                <td>24887</td>
+                <td>746</td>
+                
+                <td class="right" data-ratio="92090 116977">79%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy___init___py.html">sympy/__init__.py</a></td>
+                <td>51</td>
+                <td>51</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 51">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_abc_py.html">sympy/abc.py</a></td>
+                <td>40</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="40 40">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions___init___py.html">sympy/assumptions/__init__.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_ask_py.html">sympy/assumptions/ask.py</a></td>
+                <td>224</td>
+                <td>127</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="97 224">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_ask_generated_py.html">sympy/assumptions/ask_generated.py</a></td>
+                <td>7</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 7">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_assume_py.html">sympy/assumptions/assume.py</a></td>
+                <td>85</td>
+                <td>37</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 85">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_handlers___init___py.html">sympy/assumptions/handlers/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_handlers_calculus_py.html">sympy/assumptions/handlers/calculus.py</a></td>
+                <td>61</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="40 61">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_handlers_common_py.html">sympy/assumptions/handlers/common.py</a></td>
+                <td>71</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="64 71">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_handlers_matrices_py.html">sympy/assumptions/handlers/matrices.py</a></td>
+                <td>246</td>
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="218 246">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_handlers_ntheory_py.html">sympy/assumptions/handlers/ntheory.py</a></td>
+                <td>142</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="133 142">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_handlers_order_py.html">sympy/assumptions/handlers/order.py</a></td>
+                <td>215</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="200 215">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_handlers_sets_py.html">sympy/assumptions/handlers/sets.py</a></td>
+                <td>342</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="322 342">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_refine_py.html">sympy/assumptions/refine.py</a></td>
+                <td>106</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="92 106">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_satask_py.html">sympy/assumptions/satask.py</a></td>
+                <td>48</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="47 48">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_assumptions_sathandlers_py.html">sympy/assumptions/sathandlers.py</a></td>
+                <td>122</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="116 122">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_calculus___init___py.html">sympy/calculus/__init__.py</a></td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 4">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_calculus_euler_py.html">sympy/calculus/euler.py</a></td>
+                <td>28</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 28">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_calculus_finite_diff_py.html">sympy/calculus/finite_diff.py</a></td>
+                <td>50</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 50">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_calculus_singularities_py.html">sympy/calculus/singularities.py</a></td>
+                <td>59</td>
+                <td>12</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="47 59">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_calculus_util_py.html">sympy/calculus/util.py</a></td>
+                <td>499</td>
+                <td>120</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="379 499">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_categories___init___py.html">sympy/categories/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_categories_baseclasses_py.html">sympy/categories/baseclasses.py</a></td>
+                <td>168</td>
+                <td>0</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="168 168">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_categories_diagram_drawing_py.html">sympy/categories/diagram_drawing.py</a></td>
+                <td>861</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="832 861">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_codegen___init___py.html">sympy/codegen/__init__.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_codegen_ast_py.html">sympy/codegen/ast.py</a></td>
+                <td>109</td>
+                <td>41</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="68 109">62%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics___init___py.html">sympy/combinatorics/__init__.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_fp_groups_py.html">sympy/combinatorics/fp_groups.py</a></td>
+                <td>680</td>
+                <td>44</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="636 680">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_free_group_py.html">sympy/combinatorics/free_group.py</a></td>
+                <td>424</td>
+                <td>47</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="377 424">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_generators_py.html">sympy/combinatorics/generators.py</a></td>
+                <td>154</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="153 154">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_graycode_py.html">sympy/combinatorics/graycode.py</a></td>
+                <td>92</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="87 92">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_group_constructs_py.html">sympy/combinatorics/group_constructs.py</a></td>
+                <td>31</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="31 31">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_named_groups_py.html">sympy/combinatorics/named_groups.py</a></td>
+                <td>111</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="110 111">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_partitions_py.html">sympy/combinatorics/partitions.py</a></td>
+                <td>230</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="229 230">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_perm_groups_py.html">sympy/combinatorics/perm_groups.py</a></td>
+                <td>1139</td>
+                <td>77</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="1062 1139">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_permutations_py.html">sympy/combinatorics/permutations.py</a></td>
+                <td>733</td>
+                <td>31</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="702 733">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_polyhedron_py.html">sympy/combinatorics/polyhedron.py</a></td>
+                <td>97</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="97 97">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_prufer_py.html">sympy/combinatorics/prufer.py</a></td>
+                <td>137</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="133 137">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_subsets_py.html">sympy/combinatorics/subsets.py</a></td>
+                <td>140</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="134 140">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_tensor_can_py.html">sympy/combinatorics/tensor_can.py</a></td>
+                <td>413</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="397 413">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_testutil_py.html">sympy/combinatorics/testutil.py</a></td>
+                <td>137</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="134 137">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_combinatorics_util_py.html">sympy/combinatorics/util.py</a></td>
+                <td>139</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="130 139">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_concrete___init___py.html">sympy/concrete/__init__.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 2">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_concrete_delta_py.html">sympy/concrete/delta.py</a></td>
+                <td>138</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="131 138">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_concrete_expr_with_intlimits_py.html">sympy/concrete/expr_with_intlimits.py</a></td>
+                <td>61</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="44 61">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_concrete_expr_with_limits_py.html">sympy/concrete/expr_with_limits.py</a></td>
+                <td>214</td>
+                <td>39</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="175 214">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_concrete_gosper_py.html">sympy/concrete/gosper.py</a></td>
+                <td>82</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="67 82">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_concrete_guess_py.html">sympy/concrete/guess.py</a></td>
+                <td>147</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="142 147">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_concrete_products_py.html">sympy/concrete/products.py</a></td>
+                <td>142</td>
+                <td>38</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="104 142">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_concrete_summations_py.html">sympy/concrete/summations.py</a></td>
+                <td>480</td>
+                <td>81</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="399 480">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_conftest_py.html">sympy/conftest.py</a></td>
+                <td>50</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 50">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core___init___py.html">sympy/core/__init__.py</a></td>
+                <td>21</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 21">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_add_py.html">sympy/core/add.py</a></td>
+                <td>595</td>
+                <td>75</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="520 595">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_alphabets_py.html">sympy/core/alphabets.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 2">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_assumptions_py.html">sympy/core/assumptions.py</a></td>
+                <td>100</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="80 100">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_basic_py.html">sympy/core/basic.py</a></td>
+                <td>600</td>
+                <td>152</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="448 600">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_cache_py.html">sympy/core/cache.py</a></td>
+                <td>95</td>
+                <td>76</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 95">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_compatibility_py.html">sympy/core/compatibility.py</a></td>
+                <td>294</td>
+                <td>64</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="230 294">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_containers_py.html">sympy/core/containers.py</a></td>
+                <td>110</td>
+                <td>38</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="72 110">65%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_core_py.html">sympy/core/core.py</a></td>
+                <td>39</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 39">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_coreerrors_py.html">sympy/core/coreerrors.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_decorators_py.html">sympy/core/decorators.py</a></td>
+                <td>45</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 45">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_evalf_py.html">sympy/core/evalf.py</a></td>
+                <td>852</td>
+                <td>142</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="710 852">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_evaluate_py.html">sympy/core/evaluate.py</a></td>
+                <td>12</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 12">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_expr_py.html">sympy/core/expr.py</a></td>
+                <td>1412</td>
+                <td>222</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="1190 1412">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_exprtools_py.html">sympy/core/exprtools.py</a></td>
+                <td>763</td>
+                <td>102</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="661 763">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_facts_py.html">sympy/core/facts.py</a></td>
+                <td>204</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="163 204">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_function_py.html">sympy/core/function.py</a></td>
+                <td>838</td>
+                <td>198</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="640 838">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_logic_py.html">sympy/core/logic.py</a></td>
+                <td>177</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="128 177">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_mod_py.html">sympy/core/mod.py</a></td>
+                <td>94</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="86 94">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_mul_py.html">sympy/core/mul.py</a></td>
+                <td>1015</td>
+                <td>140</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="875 1015">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_multidimensional_py.html">sympy/core/multidimensional.py</a></td>
+                <td>62</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 62">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_numbers_py.html">sympy/core/numbers.py</a></td>
+                <td>1999</td>
+                <td>689</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="1310 1999">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_operations_py.html">sympy/core/operations.py</a></td>
+                <td>216</td>
+                <td>37</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="179 216">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_power_py.html">sympy/core/power.py</a></td>
+                <td>971</td>
+                <td>96</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="875 971">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_relational_py.html">sympy/core/relational.py</a></td>
+                <td>238</td>
+                <td>76</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="162 238">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_rules_py.html">sympy/core/rules.py</a></td>
+                <td>15</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 15">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_singleton_py.html">sympy/core/singleton.py</a></td>
+                <td>35</td>
+                <td>19</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 35">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_symbol_py.html">sympy/core/symbol.py</a></td>
+                <td>228</td>
+                <td>68</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="160 228">70%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_sympify_py.html">sympy/core/sympify.py</a></td>
+                <td>143</td>
+                <td>33</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="110 143">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_core_trace_py.html">sympy/core/trace.py</a></td>
+                <td>75</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="73 75">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_crypto___init___py.html">sympy/crypto/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_crypto_crypto_py.html">sympy/crypto/crypto.py</a></td>
+                <td>370</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="368 370">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_deprecated___init___py.html">sympy/deprecated/__init__.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_deprecated_class_registry_py.html">sympy/deprecated/class_registry.py</a></td>
+                <td>16</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 16">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_diffgeom___init___py.html">sympy/diffgeom/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_diffgeom_diffgeom_py.html">sympy/diffgeom/diffgeom.py</a></td>
+                <td>432</td>
+                <td>19</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="413 432">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_diffgeom_rn_py.html">sympy/diffgeom/rn.py</a></td>
+                <td>39</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 39">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_external___init___py.html">sympy/external/__init__.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_external_importtools_py.html">sympy/external/importtools.py</a></td>
+                <td>52</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 52">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions___init___py.html">sympy/functions/__init__.py</a></td>
+                <td>24</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 24">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_combinatorial___init___py.html">sympy/functions/combinatorial/__init__.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 2">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_combinatorial_factorials_py.html">sympy/functions/combinatorial/factorials.py</a></td>
+                <td>383</td>
+                <td>98</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="285 383">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_combinatorial_numbers_py.html">sympy/functions/combinatorial/numbers.py</a></td>
+                <td>535</td>
+                <td>120</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="415 535">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_elementary___init___py.html">sympy/functions/elementary/__init__.py</a></td>
+                <td>6</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 6">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_elementary_complexes_py.html">sympy/functions/elementary/complexes.py</a></td>
+                <td>601</td>
+                <td>144</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="457 601">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_elementary_exponential_py.html">sympy/functions/elementary/exponential.py</a></td>
+                <td>541</td>
+                <td>99</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="442 541">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_elementary_hyperbolic_py.html">sympy/functions/elementary/hyperbolic.py</a></td>
+                <td>741</td>
+                <td>197</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="544 741">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_elementary_integers_py.html">sympy/functions/elementary/integers.py</a></td>
+                <td>145</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="114 145">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_elementary_miscellaneous_py.html">sympy/functions/elementary/miscellaneous.py</a></td>
+                <td>205</td>
+                <td>67</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="138 205">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_elementary_piecewise_py.html">sympy/functions/elementary/piecewise.py</a></td>
+                <td>354</td>
+                <td>39</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="315 354">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_elementary_trigonometric_py.html">sympy/functions/elementary/trigonometric.py</a></td>
+                <td>1488</td>
+                <td>367</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="1121 1488">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special___init___py.html">sympy/functions/special/__init__.py</a></td>
+                <td>10</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 10">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_bessel_py.html">sympy/functions/special/bessel.py</a></td>
+                <td>600</td>
+                <td>214</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="386 600">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_beta_functions_py.html">sympy/functions/special/beta_functions.py</a></td>
+                <td>22</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 22">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_bsplines_py.html">sympy/functions/special/bsplines.py</a></td>
+                <td>48</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 48">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_delta_functions_py.html">sympy/functions/special/delta_functions.py</a></td>
+                <td>134</td>
+                <td>45</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="89 134">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_elliptic_integrals_py.html">sympy/functions/special/elliptic_integrals.py</a></td>
+                <td>179</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="138 179">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_error_functions_py.html">sympy/functions/special/error_functions.py</a></td>
+                <td>796</td>
+                <td>305</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="491 796">62%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_gamma_functions_py.html">sympy/functions/special/gamma_functions.py</a></td>
+                <td>402</td>
+                <td>84</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="318 402">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_hyper_py.html">sympy/functions/special/hyper.py</a></td>
+                <td>416</td>
+                <td>151</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="265 416">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_mathieu_functions_py.html">sympy/functions/special/mathieu_functions.py</a></td>
+                <td>54</td>
+                <td>28</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 54">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_polynomials_py.html">sympy/functions/special/polynomials.py</a></td>
+                <td>353</td>
+                <td>169</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="184 353">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_singularity_functions_py.html">sympy/functions/special/singularity_functions.py</a></td>
+                <td>62</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 62">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_spherical_harmonics_py.html">sympy/functions/special/spherical_harmonics.py</a></td>
+                <td>84</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 84">51%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_tensor_functions_py.html">sympy/functions/special/tensor_functions.py</a></td>
+                <td>88</td>
+                <td>32</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="56 88">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_functions_special_zeta_functions_py.html">sympy/functions/special/zeta_functions.py</a></td>
+                <td>171</td>
+                <td>35</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="136 171">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_galgebra_py.html">sympy/galgebra.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry___init___py.html">sympy/geometry/__init__.py</a></td>
+                <td>10</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 10">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_curve_py.html">sympy/geometry/curve.py</a></td>
+                <td>63</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 63">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_ellipse_py.html">sympy/geometry/ellipse.py</a></td>
+                <td>375</td>
+                <td>232</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="143 375">38%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_entity_py.html">sympy/geometry/entity.py</a></td>
+                <td>220</td>
+                <td>113</td>
+                <td>8</td>
+                
+                <td class="right" data-ratio="107 220">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_exceptions_py.html">sympy/geometry/exceptions.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_line_py.html">sympy/geometry/line.py</a></td>
+                <td>490</td>
+                <td>122</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="368 490">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_line3d_py.html">sympy/geometry/line3d.py</a></td>
+                <td>356</td>
+                <td>75</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="281 356">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_parabola_py.html">sympy/geometry/parabola.py</a></td>
+                <td>59</td>
+                <td>19</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="40 59">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_plane_py.html">sympy/geometry/plane.py</a></td>
+                <td>271</td>
+                <td>220</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="51 271">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_point_py.html">sympy/geometry/point.py</a></td>
+                <td>266</td>
+                <td>82</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="184 266">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_polygon_py.html">sympy/geometry/polygon.py</a></td>
+                <td>587</td>
+                <td>143</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="444 587">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_geometry_util_py.html">sympy/geometry/util.py</a></td>
+                <td>258</td>
+                <td>71</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="187 258">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_holonomic___init___py.html">sympy/holonomic/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_holonomic_holonomic_py.html">sympy/holonomic/holonomic.py</a></td>
+                <td>1443</td>
+                <td>217</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="1226 1443">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_holonomic_holonomicerrors_py.html">sympy/holonomic/holonomicerrors.py</a></td>
+                <td>34</td>
+                <td>17</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="17 34">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_holonomic_linearsolver_py.html">sympy/holonomic/linearsolver.py</a></td>
+                <td>54</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 54">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_holonomic_numerical_py.html">sympy/holonomic/numerical.py</a></td>
+                <td>69</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="68 69">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_holonomic_recurrence_py.html">sympy/holonomic/recurrence.py</a></td>
+                <td>178</td>
+                <td>53</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="125 178">70%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals___init___py.html">sympy/integrals/__init__.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_deltafunctions_py.html">sympy/integrals/deltafunctions.py</a></td>
+                <td>73</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="72 73">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_heurisch_py.html">sympy/integrals/heurisch.py</a></td>
+                <td>357</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="342 357">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_integrals_py.html">sympy/integrals/integrals.py</a></td>
+                <td>521</td>
+                <td>101</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="420 521">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_manualintegrate_py.html">sympy/integrals/manualintegrate.py</a></td>
+                <td>694</td>
+                <td>134</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="560 694">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_meijerint_py.html">sympy/integrals/meijerint.py</a></td>
+                <td>1110</td>
+                <td>133</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="977 1110">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_meijerint_doc_py.html">sympy/integrals/meijerint_doc.py</a></td>
+                <td>20</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 20">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_prde_py.html">sympy/integrals/prde.py</a></td>
+                <td>372</td>
+                <td>54</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="318 372">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_quadrature_py.html">sympy/integrals/quadrature.py</a></td>
+                <td>87</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="87 87">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_rationaltools_py.html">sympy/integrals/rationaltools.py</a></td>
+                <td>149</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="147 149">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_rde_py.html">sympy/integrals/rde.py</a></td>
+                <td>361</td>
+                <td>74</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="287 361">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_risch_py.html">sympy/integrals/risch.py</a></td>
+                <td>685</td>
+                <td>17</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="668 685">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_singularityfunctions_py.html">sympy/integrals/singularityfunctions.py</a></td>
+                <td>20</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="15 20">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_transforms_py.html">sympy/integrals/transforms.py</a></td>
+                <td>750</td>
+                <td>229</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="521 750">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_integrals_trigonometry_py.html">sympy/integrals/trigonometry.py</a></td>
+                <td>87</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="69 87">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_interactive___init___py.html">sympy/interactive/__init__.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 2">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_interactive_ipythonprinting_py.html">sympy/interactive/ipythonprinting.py</a></td>
+                <td>8</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 8">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_interactive_printing_py.html">sympy/interactive/printing.py</a></td>
+                <td>187</td>
+                <td>81</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="106 187">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_interactive_session_py.html">sympy/interactive/session.py</a></td>
+                <td>179</td>
+                <td>131</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 179">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras___init___py.html">sympy/liealgebras/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_cartan_matrix_py.html">sympy/liealgebras/cartan_matrix.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_cartan_type_py.html">sympy/liealgebras/cartan_type.py</a></td>
+                <td>48</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 48">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_dynkin_diagram_py.html">sympy/liealgebras/dynkin_diagram.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_root_system_py.html">sympy/liealgebras/root_system.py</a></td>
+                <td>52</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="50 52">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_type_a_py.html">sympy/liealgebras/type_a.py</a></td>
+                <td>55</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="54 55">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_type_b_py.html">sympy/liealgebras/type_b.py</a></td>
+                <td>67</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="65 67">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_type_c_py.html">sympy/liealgebras/type_c.py</a></td>
+                <td>67</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="65 67">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_type_d_py.html">sympy/liealgebras/type_d.py</a></td>
+                <td>68</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="62 68">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_type_e_py.html">sympy/liealgebras/type_e.py</a></td>
+                <td>180</td>
+                <td>94</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="86 180">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_type_f_py.html">sympy/liealgebras/type_f.py</a></td>
+                <td>68</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="66 68">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_type_g_py.html">sympy/liealgebras/type_g.py</a></td>
+                <td>26</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="24 26">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_liealgebras_weyl_group_py.html">sympy/liealgebras/weyl_group.py</a></td>
+                <td>228</td>
+                <td>67</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="161 228">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_logic___init___py.html">sympy/logic/__init__.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 2">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_logic_algorithms___init___py.html">sympy/logic/algorithms/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_logic_algorithms_dpll_py.html">sympy/logic/algorithms/dpll.py</a></td>
+                <td>158</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="135 158">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_logic_algorithms_dpll2_py.html">sympy/logic/algorithms/dpll2.py</a></td>
+                <td>217</td>
+                <td>21</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="196 217">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_logic_boolalg_py.html">sympy/logic/boolalg.py</a></td>
+                <td>647</td>
+                <td>154</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="493 647">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_logic_inference_py.html">sympy/logic/inference.py</a></td>
+                <td>75</td>
+                <td>24</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="51 75">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_logic_utilities___init___py.html">sympy/logic/utilities/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_logic_utilities_dimacs_py.html">sympy/logic/utilities/dimacs.py</a></td>
+                <td>34</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="31 34">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices___init___py.html">sympy/matrices/__init__.py</a></td>
+                <td>9</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 9">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_dense_py.html">sympy/matrices/dense.py</a></td>
+                <td>449</td>
+                <td>120</td>
+                <td>24</td>
+                
+                <td class="right" data-ratio="329 449">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_densearith_py.html">sympy/matrices/densearith.py</a></td>
+                <td>26</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 26">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_densesolve_py.html">sympy/matrices/densesolve.py</a></td>
+                <td>109</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="91 109">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_densetools_py.html">sympy/matrices/densetools.py</a></td>
+                <td>50</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 50">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions___init___py.html">sympy/matrices/expressions/__init__.py</a></td>
+                <td>15</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 15">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_adjoint_py.html">sympy/matrices/expressions/adjoint.py</a></td>
+                <td>27</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 27">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_blockmatrix_py.html">sympy/matrices/expressions/blockmatrix.py</a></td>
+                <td>228</td>
+                <td>77</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="151 228">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_determinant_py.html">sympy/matrices/expressions/determinant.py</a></td>
+                <td>31</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 31">52%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_diagonal_py.html">sympy/matrices/expressions/diagonal.py</a></td>
+                <td>13</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 13">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_dotproduct_py.html">sympy/matrices/expressions/dotproduct.py</a></td>
+                <td>28</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 28">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_factorizations_py.html">sympy/matrices/expressions/factorizations.py</a></td>
+                <td>34</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 34">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_fourier_py.html">sympy/matrices/expressions/fourier.py</a></td>
+                <td>17</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 17">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_funcmatrix_py.html">sympy/matrices/expressions/funcmatrix.py</a></td>
+                <td>16</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 16">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_hadamard_py.html">sympy/matrices/expressions/hadamard.py</a></td>
+                <td>37</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 37">62%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_inverse_py.html">sympy/matrices/expressions/inverse.py</a></td>
+                <td>39</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 39">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_matadd_py.html">sympy/matrices/expressions/matadd.py</a></td>
+                <td>56</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="32 56">57%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_matexpr_py.html">sympy/matrices/expressions/matexpr.py</a></td>
+                <td>266</td>
+                <td>142</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="124 266">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_matmul_py.html">sympy/matrices/expressions/matmul.py</a></td>
+                <td>160</td>
+                <td>39</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="121 160">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_matpow_py.html">sympy/matrices/expressions/matpow.py</a></td>
+                <td>50</td>
+                <td>16</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="34 50">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_slice_py.html">sympy/matrices/expressions/slice.py</a></td>
+                <td>63</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="48 63">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_trace_py.html">sympy/matrices/expressions/trace.py</a></td>
+                <td>33</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 33">61%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_expressions_transpose_py.html">sympy/matrices/expressions/transpose.py</a></td>
+                <td>42</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="20 42">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_immutable_py.html">sympy/matrices/immutable.py</a></td>
+                <td>86</td>
+                <td>56</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 86">35%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_matrices_py.html">sympy/matrices/matrices.py</a></td>
+                <td>1385</td>
+                <td>242</td>
+                <td>17</td>
+                
+                <td class="right" data-ratio="1143 1385">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_sparse_py.html">sympy/matrices/sparse.py</a></td>
+                <td>587</td>
+                <td>134</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="453 587">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_matrices_sparsetools_py.html">sympy/matrices/sparsetools.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 19">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory___init___py.html">sympy/ntheory/__init__.py</a></td>
+                <td>8</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 8">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_bbp_pi_py.html">sympy/ntheory/bbp_pi.py</a></td>
+                <td>41</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="41 41">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_continued_fraction_py.html">sympy/ntheory/continued_fraction.py</a></td>
+                <td>65</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="60 65">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_egyptian_fraction_py.html">sympy/ntheory/egyptian_fraction.py</a></td>
+                <td>73</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="57 73">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_factor__py.html">sympy/ntheory/factor_.py</a></td>
+                <td>664</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="590 664">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_generate_py.html">sympy/ntheory/generate.py</a></td>
+                <td>306</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="275 306">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_modular_py.html">sympy/ntheory/modular.py</a></td>
+                <td>74</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="72 74">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_multinomial_py.html">sympy/ntheory/multinomial.py</a></td>
+                <td>113</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="75 113">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_partitions__py.html">sympy/ntheory/partitions_.py</a></td>
+                <td>114</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="100 114">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_primetest_py.html">sympy/ntheory/primetest.py</a></td>
+                <td>242</td>
+                <td>88</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="154 242">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_ntheory_residue_ntheory_py.html">sympy/ntheory/residue_ntheory.py</a></td>
+                <td>532</td>
+                <td>37</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="495 532">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_parsing___init___py.html">sympy/parsing/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_parsing_ast_parser_py.html">sympy/parsing/ast_parser.py</a></td>
+                <td>41</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 41">27%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_parsing_mathematica_py.html">sympy/parsing/mathematica.py</a></td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 22">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_parsing_maxima_py.html">sympy/parsing/maxima.py</a></td>
+                <td>36</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="36 36">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_parsing_sympy_parser_py.html">sympy/parsing/sympy_parser.py</a></td>
+                <td>432</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="427 432">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_parsing_sympy_tokenize_py.html">sympy/parsing/sympy_tokenize.py</a></td>
+                <td>251</td>
+                <td>86</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="165 251">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics___init___py.html">sympy/physics/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_gaussopt_py.html">sympy/physics/gaussopt.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_hep___init___py.html">sympy/physics/hep/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_hep_gamma_matrices_py.html">sympy/physics/hep/gamma_matrices.py</a></td>
+                <td>387</td>
+                <td>31</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="356 387">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_hydrogen_py.html">sympy/physics/hydrogen.py</a></td>
+                <td>27</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 27">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_matrices_py.html">sympy/physics/matrices.py</a></td>
+                <td>51</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 51">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics___init___py.html">sympy/physics/mechanics/__init__.py</a></td>
+                <td>25</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 25">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics_body_py.html">sympy/physics/mechanics/body.py</a></td>
+                <td>42</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="42 42">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics_functions_py.html">sympy/physics/mechanics/functions.py</a></td>
+                <td>153</td>
+                <td>23</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="130 153">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics_kane_py.html">sympy/physics/mechanics/kane.py</a></td>
+                <td>412</td>
+                <td>88</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="324 412">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics_lagrange_py.html">sympy/physics/mechanics/lagrange.py</a></td>
+                <td>175</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="151 175">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics_linearize_py.html">sympy/physics/mechanics/linearize.py</a></td>
+                <td>228</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="199 228">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics_models_py.html">sympy/physics/mechanics/models.py</a></td>
+                <td>88</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="86 88">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics_particle_py.html">sympy/physics/mechanics/particle.py</a></td>
+                <td>51</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="38 51">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_mechanics_rigidbody_py.html">sympy/physics/mechanics/rigidbody.py</a></td>
+                <td>92</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="68 92">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_optics___init___py.html">sympy/physics/optics/__init__.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_optics_gaussopt_py.html">sympy/physics/optics/gaussopt.py</a></td>
+                <td>129</td>
+                <td>7</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="122 129">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_optics_medium_py.html">sympy/physics/optics/medium.py</a></td>
+                <td>45</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 45">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_optics_utils_py.html">sympy/physics/optics/utils.py</a></td>
+                <td>177</td>
+                <td>25</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="152 177">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_optics_waves_py.html">sympy/physics/optics/waves.py</a></td>
+                <td>63</td>
+                <td>8</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="55 63">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_paulialgebra_py.html">sympy/physics/paulialgebra.py</a></td>
+                <td>41</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="40 41">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_pring_py.html">sympy/physics/pring.py</a></td>
+                <td>11</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 11">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_qho_1d_py.html">sympy/physics/qho_1d.py</a></td>
+                <td>13</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 13">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum___init___py.html">sympy/physics/quantum/__init__.py</a></td>
+                <td>34</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 34">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_anticommutator_py.html">sympy/physics/quantum/anticommutator.py</a></td>
+                <td>57</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="56 57">98%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_boson_py.html">sympy/physics/quantum/boson.py</a></td>
+                <td>113</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="91 113">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_cartesian_py.html">sympy/physics/quantum/cartesian.py</a></td>
+                <td>154</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="152 154">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_cg_py.html">sympy/physics/quantum/cg.py</a></td>
+                <td>379</td>
+                <td>39</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="340 379">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_circuitplot_py.html">sympy/physics/quantum/circuitplot.py</a></td>
+                <td>178</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="154 178">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_circuitutils_py.html">sympy/physics/quantum/circuitutils.py</a></td>
+                <td>162</td>
+                <td>37</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="125 162">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_commutator_py.html">sympy/physics/quantum/commutator.py</a></td>
+                <td>103</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="103 103">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_constants_py.html">sympy/physics/quantum/constants.py</a></td>
+                <td>26</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 26">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_dagger_py.html">sympy/physics/quantum/dagger.py</a></td>
+                <td>15</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="14 15">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_density_py.html">sympy/physics/quantum/density.py</a></td>
+                <td>81</td>
+                <td>17</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="64 81">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_fermion_py.html">sympy/physics/quantum/fermion.py</a></td>
+                <td>82</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="62 82">76%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_gate_py.html">sympy/physics/quantum/gate.py</a></td>
+                <td>510</td>
+                <td>32</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="478 510">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_grover_py.html">sympy/physics/quantum/grover.py</a></td>
+                <td>78</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="70 78">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_hilbert_py.html">sympy/physics/quantum/hilbert.py</a></td>
+                <td>285</td>
+                <td>19</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="266 285">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_identitysearch_py.html">sympy/physics/quantum/identitysearch.py</a></td>
+                <td>198</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="183 198">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_innerproduct_py.html">sympy/physics/quantum/innerproduct.py</a></td>
+                <td>54</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="49 54">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_matrixcache_py.html">sympy/physics/quantum/matrixcache.py</a></td>
+                <td>51</td>
+                <td>6</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="45 51">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_matrixutils_py.html">sympy/physics/quantum/matrixutils.py</a></td>
+                <td>190</td>
+                <td>58</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="132 190">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_operator_py.html">sympy/physics/quantum/operator.py</a></td>
+                <td>185</td>
+                <td>23</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="162 185">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_operatorordering_py.html">sympy/physics/quantum/operatorordering.py</a></td>
+                <td>141</td>
+                <td>43</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="98 141">70%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_operatorset_py.html">sympy/physics/quantum/operatorset.py</a></td>
+                <td>83</td>
+                <td>18</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="65 83">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_pauli_py.html">sympy/physics/quantum/pauli.py</a></td>
+                <td>314</td>
+                <td>142</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="172 314">55%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_piab_py.html">sympy/physics/quantum/piab.py</a></td>
+                <td>35</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 35">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_qapply_py.html">sympy/physics/quantum/qapply.py</a></td>
+                <td>80</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="80 80">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_qasm_py.html">sympy/physics/quantum/qasm.py</a></td>
+                <td>121</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="113 121">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_qexpr_py.html">sympy/physics/quantum/qexpr.py</a></td>
+                <td>151</td>
+                <td>14</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="137 151">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_qft_py.html">sympy/physics/quantum/qft.py</a></td>
+                <td>110</td>
+                <td>14</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="96 110">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_qubit_py.html">sympy/physics/quantum/qubit.py</a></td>
+                <td>252</td>
+                <td>42</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="210 252">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_represent_py.html">sympy/physics/quantum/represent.py</a></td>
+                <td>196</td>
+                <td>14</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="182 196">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_sho1d_py.html">sympy/physics/quantum/sho1d.py</a></td>
+                <td>203</td>
+                <td>45</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="158 203">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_shor_py.html">sympy/physics/quantum/shor.py</a></td>
+                <td>96</td>
+                <td>63</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="33 96">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_spin_py.html">sympy/physics/quantum/spin.py</a></td>
+                <td>948</td>
+                <td>77</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="871 948">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_state_py.html">sympy/physics/quantum/state.py</a></td>
+                <td>228</td>
+                <td>9</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="219 228">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_quantum_tensorproduct_py.html">sympy/physics/quantum/tensorproduct.py</a></td>
+                <td>163</td>
+                <td>36</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="127 163">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_secondquant_py.html">sympy/physics/secondquant.py</a></td>
+                <td>1040</td>
+                <td>153</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="887 1040">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_sho_py.html">sympy/physics/sho.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_units_py.html">sympy/physics/units.py</a></td>
+                <td>150</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="150 150">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems___init___py.html">sympy/physics/unitsystems/__init__.py</a></td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 4">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_dimensions_py.html">sympy/physics/unitsystems/dimensions.py</a></td>
+                <td>191</td>
+                <td>7</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="184 191">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_prefixes_py.html">sympy/physics/unitsystems/prefixes.py</a></td>
+                <td>46</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 46">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_quantities_py.html">sympy/physics/unitsystems/quantities.py</a></td>
+                <td>66</td>
+                <td>13</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="53 66">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_simplifiers_py.html">sympy/physics/unitsystems/simplifiers.py</a></td>
+                <td>60</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 60">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_systems___init___py.html">sympy/physics/unitsystems/systems/__init__.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_systems_mks_py.html">sympy/physics/unitsystems/systems/mks.py</a></td>
+                <td>40</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="40 40">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_systems_mksa_py.html">sympy/physics/unitsystems/systems/mksa.py</a></td>
+                <td>34</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 34">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_systems_natural_py.html">sympy/physics/unitsystems/systems/natural.py</a></td>
+                <td>23</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="23 23">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_unitsystems_units_py.html">sympy/physics/unitsystems/units.py</a></td>
+                <td>172</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="164 172">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_vector___init___py.html">sympy/physics/vector/__init__.py</a></td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="22 22">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_vector_dyadic_py.html">sympy/physics/vector/dyadic.py</a></td>
+                <td>213</td>
+                <td>48</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="165 213">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_vector_fieldfunctions_py.html">sympy/physics/vector/fieldfunctions.py</a></td>
+                <td>75</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="75 75">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_vector_frame_py.html">sympy/physics/vector/frame.py</a></td>
+                <td>288</td>
+                <td>57</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="231 288">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_vector_functions_py.html">sympy/physics/vector/functions.py</a></td>
+                <td>231</td>
+                <td>46</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="185 231">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_vector_point_py.html">sympy/physics/vector/point.py</a></td>
+                <td>130</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="126 130">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_vector_printing_py.html">sympy/physics/vector/printing.py</a></td>
+                <td>177</td>
+                <td>78</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="99 177">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_vector_vector_py.html">sympy/physics/vector/vector.py</a></td>
+                <td>293</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="244 293">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_physics_wigner_py.html">sympy/physics/wigner.py</a></td>
+                <td>143</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="134 143">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_plotting___init___py.html">sympy/plotting/__init__.py</a></td>
+                <td>5</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 5">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_plotting_experimental_lambdify_py.html">sympy/plotting/experimental_lambdify.py</a></td>
+                <td>238</td>
+                <td>60</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="178 238">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_plotting_intervalmath___init___py.html">sympy/plotting/intervalmath/__init__.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 2">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_plotting_intervalmath_interval_arithmetic_py.html">sympy/plotting/intervalmath/interval_arithmetic.py</a></td>
+                <td>286</td>
+                <td>62</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="224 286">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_plotting_intervalmath_lib_interval_py.html">sympy/plotting/intervalmath/lib_interval.py</a></td>
+                <td>275</td>
+                <td>46</td>
+                <td>11</td>
+                
+                <td class="right" data-ratio="229 275">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_plotting_plot_py.html">sympy/plotting/plot.py</a></td>
+                <td>667</td>
+                <td>196</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="471 667">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_plotting_plot_implicit_py.html">sympy/plotting/plot_implicit.py</a></td>
+                <td>171</td>
+                <td>23</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="148 171">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_plotting_textplot_py.html">sympy/plotting/textplot.py</a></td>
+                <td>53</td>
+                <td>53</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 53">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys___init___py.html">sympy/polys/__init__.py</a></td>
+                <td>52</td>
+                <td>52</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 52">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_agca___init___py.html">sympy/polys/agca/__init__.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_agca_homomorphisms_py.html">sympy/polys/agca/homomorphisms.py</a></td>
+                <td>178</td>
+                <td>0</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="178 178">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_agca_ideals_py.html">sympy/polys/agca/ideals.py</a></td>
+                <td>109</td>
+                <td>1</td>
+                <td>21</td>
+                
+                <td class="right" data-ratio="108 109">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_agca_modules_py.html">sympy/polys/agca/modules.py</a></td>
+                <td>420</td>
+                <td>18</td>
+                <td>16</td>
+                
+                <td class="right" data-ratio="402 420">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_compatibility_py.html">sympy/polys/compatibility.py</a></td>
+                <td>951</td>
+                <td>755</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="196 951">21%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_constructor_py.html">sympy/polys/constructor.py</a></td>
+                <td>163</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="149 163">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_densearith_py.html">sympy/polys/densearith.py</a></td>
+                <td>580</td>
+                <td>87</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="493 580">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_densebasic_py.html">sympy/polys/densebasic.py</a></td>
+                <td>570</td>
+                <td>97</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="473 570">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_densetools_py.html">sympy/polys/densetools.py</a></td>
+                <td>421</td>
+                <td>58</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="363 421">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_dispersion_py.html">sympy/polys/dispersion.py</a></td>
+                <td>46</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 46">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_distributedmodules_py.html">sympy/polys/distributedmodules.py</a></td>
+                <td>212</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="204 212">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains___init___py.html">sympy/polys/domains/__init__.py</a></td>
+                <td>67</td>
+                <td>67</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 67">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_algebraicfield_py.html">sympy/polys/domains/algebraicfield.py</a></td>
+                <td>74</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 74">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_characteristiczero_py.html">sympy/polys/domains/characteristiczero.py</a></td>
+                <td>8</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 8">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_complexfield_py.html">sympy/polys/domains/complexfield.py</a></td>
+                <td>68</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 68">26%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_compositedomain_py.html">sympy/polys/domains/compositedomain.py</a></td>
+                <td>12</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 12">25%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_domain_py.html">sympy/polys/domains/domain.py</a></td>
+                <td>293</td>
+                <td>152</td>
+                <td>18</td>
+                
+                <td class="right" data-ratio="141 293">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_domainelement_py.html">sympy/polys/domains/domainelement.py</a></td>
+                <td>5</td>
+                <td>5</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="0 5">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_expressiondomain_py.html">sympy/polys/domains/expressiondomain.py</a></td>
+                <td>135</td>
+                <td>82</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="53 135">39%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_field_py.html">sympy/polys/domains/field.py</a></td>
+                <td>39</td>
+                <td>20</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 39">49%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_finitefield_py.html">sympy/polys/domains/finitefield.py</a></td>
+                <td>63</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="21 63">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_fractionfield_py.html">sympy/polys/domains/fractionfield.py</a></td>
+                <td>79</td>
+                <td>45</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="34 79">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_gmpyfinitefield_py.html">sympy/polys/domains/gmpyfinitefield.py</a></td>
+                <td>9</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 9">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_gmpyintegerring_py.html">sympy/polys/domains/gmpyintegerring.py</a></td>
+                <td>50</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 50">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_gmpyrationalfield_py.html">sympy/polys/domains/gmpyrationalfield.py</a></td>
+                <td>50</td>
+                <td>50</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 50">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_groundtypes_py.html">sympy/polys/domains/groundtypes.py</a></td>
+                <td>32</td>
+                <td>30</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 32">6%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_integerring_py.html">sympy/polys/domains/integerring.py</a></td>
+                <td>23</td>
+                <td>19</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 23">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_modularinteger_py.html">sympy/polys/domains/modularinteger.py</a></td>
+                <td>133</td>
+                <td>58</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="75 133">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_mpelements_py.html">sympy/polys/domains/mpelements.py</a></td>
+                <td>119</td>
+                <td>47</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="72 119">61%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_old_fractionfield_py.html">sympy/polys/domains/old_fractionfield.py</a></td>
+                <td>92</td>
+                <td>30</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="62 92">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_old_polynomialring_py.html">sympy/polys/domains/old_polynomialring.py</a></td>
+                <td>165</td>
+                <td>16</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="149 165">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_polynomialring_py.html">sympy/polys/domains/polynomialring.py</a></td>
+                <td>81</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 81">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_pythonfinitefield_py.html">sympy/polys/domains/pythonfinitefield.py</a></td>
+                <td>9</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 9">11%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_pythonintegerring_py.html">sympy/polys/domains/pythonintegerring.py</a></td>
+                <td>48</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="19 48">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_pythonrational_py.html">sympy/polys/domains/pythonrational.py</a></td>
+                <td>161</td>
+                <td>57</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="104 161">65%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_pythonrationalfield_py.html">sympy/polys/domains/pythonrationalfield.py</a></td>
+                <td>41</td>
+                <td>24</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 41">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_quotientring_py.html">sympy/polys/domains/quotientring.py</a></td>
+                <td>102</td>
+                <td>6</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="96 102">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_rationalfield_py.html">sympy/polys/domains/rationalfield.py</a></td>
+                <td>18</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 18">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_realfield_py.html">sympy/polys/domains/realfield.py</a></td>
+                <td>71</td>
+                <td>42</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="29 71">41%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_ring_py.html">sympy/polys/domains/ring.py</a></td>
+                <td>51</td>
+                <td>28</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="23 51">45%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_domains_simpledomain_py.html">sympy/polys/domains/simpledomain.py</a></td>
+                <td>8</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 8">13%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_euclidtools_py.html">sympy/polys/euclidtools.py</a></td>
+                <td>671</td>
+                <td>106</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="565 671">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_factortools_py.html">sympy/polys/factortools.py</a></td>
+                <td>685</td>
+                <td>54</td>
+                <td>19</td>
+                
+                <td class="right" data-ratio="631 685">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_fglmtools_py.html">sympy/polys/fglmtools.py</a></td>
+                <td>81</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="71 81">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_fields_py.html">sympy/polys/fields.py</a></td>
+                <td>401</td>
+                <td>112</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="289 401">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_galoistools_py.html">sympy/polys/galoistools.py</a></td>
+                <td>720</td>
+                <td>92</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="628 720">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_groebnertools_py.html">sympy/polys/groebnertools.py</a></td>
+                <td>378</td>
+                <td>85</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="293 378">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_heuristicgcd_py.html">sympy/polys/heuristicgcd.py</a></td>
+                <td>65</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 65">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_modulargcd_py.html">sympy/polys/modulargcd.py</a></td>
+                <td>800</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="792 800">99%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_monomials_py.html">sympy/polys/monomials.py</a></td>
+                <td>206</td>
+                <td>66</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="140 206">68%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_numberfields_py.html">sympy/polys/numberfields.py</a></td>
+                <td>613</td>
+                <td>84</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="529 613">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_orderings_py.html">sympy/polys/orderings.py</a></td>
+                <td>124</td>
+                <td>64</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="60 124">48%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_orthopolys_py.html">sympy/polys/orthopolys.py</a></td>
+                <td>168</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="134 168">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_partfrac_py.html">sympy/polys/partfrac.py</a></td>
+                <td>165</td>
+                <td>24</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="141 165">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polyclasses_py.html">sympy/polys/polyclasses.py</a></td>
+                <td>1007</td>
+                <td>407</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="600 1007">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polyconfig_py.html">sympy/polys/polyconfig.py</a></td>
+                <td>28</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 28">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polyerrors_py.html">sympy/polys/polyerrors.py</a></td>
+                <td>108</td>
+                <td>88</td>
+                <td>14</td>
+                
+                <td class="right" data-ratio="20 108">19%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polyfuncs_py.html">sympy/polys/polyfuncs.py</a></td>
+                <td>142</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="121 142">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polyoptions_py.html">sympy/polys/polyoptions.py</a></td>
+                <td>390</td>
+                <td>205</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="185 390">47%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polyquinticconst_py.html">sympy/polys/polyquinticconst.py</a></td>
+                <td>108</td>
+                <td>22</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="86 108">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polyroots_py.html">sympy/polys/polyroots.py</a></td>
+                <td>631</td>
+                <td>82</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="549 631">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polytools_py.html">sympy/polys/polytools.py</a></td>
+                <td>2212</td>
+                <td>424</td>
+                <td>151</td>
+                
+                <td class="right" data-ratio="1788 2212">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_polyutils_py.html">sympy/polys/polyutils.py</a></td>
+                <td>269</td>
+                <td>39</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="230 269">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_rationaltools_py.html">sympy/polys/rationaltools.py</a></td>
+                <td>24</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 24">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_ring_series_py.html">sympy/polys/ring_series.py</a></td>
+                <td>958</td>
+                <td>193</td>
+                <td>12</td>
+                
+                <td class="right" data-ratio="765 958">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_rings_py.html">sympy/polys/rings.py</a></td>
+                <td>1358</td>
+                <td>294</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="1064 1358">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_rootisolation_py.html">sympy/polys/rootisolation.py</a></td>
+                <td>999</td>
+                <td>135</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="864 999">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_rootoftools_py.html">sympy/polys/rootoftools.py</a></td>
+                <td>544</td>
+                <td>102</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="442 544">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_solvers_py.html">sympy/polys/solvers.py</a></td>
+                <td>38</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="37 38">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_specialpolys_py.html">sympy/polys/specialpolys.py</a></td>
+                <td>179</td>
+                <td>49</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="130 179">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_sqfreetools_py.html">sympy/polys/sqfreetools.py</a></td>
+                <td>168</td>
+                <td>29</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="139 168">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_polys_subresultants_qq_zz_py.html">sympy/polys/subresultants_qq_zz.py</a></td>
+                <td>878</td>
+                <td>113</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="765 878">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing___init___py.html">sympy/printing/__init__.py</a></td>
+                <td>16</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 16">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_ccode_py.html">sympy/printing/ccode.py</a></td>
+                <td>148</td>
+                <td>42</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="106 148">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_codeprinter_py.html">sympy/printing/codeprinter.py</a></td>
+                <td>263</td>
+                <td>89</td>
+                <td>7</td>
+                
+                <td class="right" data-ratio="174 263">66%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_conventions_py.html">sympy/printing/conventions.py</a></td>
+                <td>39</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="33 39">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_defaults_py.html">sympy/printing/defaults.py</a></td>
+                <td>6</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 6">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_dot_py.html">sympy/printing/dot.py</a></td>
+                <td>56</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="54 56">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_fcode_py.html">sympy/printing/fcode.py</a></td>
+                <td>245</td>
+                <td>49</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="196 245">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_gtk_py.html">sympy/printing/gtk.py</a></td>
+                <td>11</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 11">36%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_jscode_py.html">sympy/printing/jscode.py</a></td>
+                <td>109</td>
+                <td>39</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="70 109">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_julia_py.html">sympy/printing/julia.py</a></td>
+                <td>258</td>
+                <td>72</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="186 258">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_lambdarepr_py.html">sympy/printing/lambdarepr.py</a></td>
+                <td>112</td>
+                <td>51</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 112">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_latex_py.html">sympy/printing/latex.py</a></td>
+                <td>1205</td>
+                <td>330</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="875 1205">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_llvmjitcode_py.html">sympy/printing/llvmjitcode.py</a></td>
+                <td>265</td>
+                <td>220</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="45 265">17%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_mathematica_py.html">sympy/printing/mathematica.py</a></td>
+                <td>56</td>
+                <td>26</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 56">54%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_mathml_py.html">sympy/printing/mathml.py</a></td>
+                <td>311</td>
+                <td>109</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="202 311">65%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_octave_py.html">sympy/printing/octave.py</a></td>
+                <td>265</td>
+                <td>74</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="191 265">72%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_precedence_py.html">sympy/printing/precedence.py</a></td>
+                <td>52</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="36 52">69%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_pretty___init___py.html">sympy/printing/pretty/__init__.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 2">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_pretty_pretty_py.html">sympy/printing/pretty/pretty.py</a></td>
+                <td>1433</td>
+                <td>335</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="1098 1433">77%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_pretty_pretty_symbology_py.html">sympy/printing/pretty/pretty_symbology.py</a></td>
+                <td>201</td>
+                <td>95</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="106 201">53%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_pretty_stringpict_py.html">sympy/printing/pretty/stringpict.py</a></td>
+                <td>250</td>
+                <td>93</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="157 250">63%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_preview_py.html">sympy/printing/preview.py</a></td>
+                <td>140</td>
+                <td>98</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="42 140">30%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_printer_py.html">sympy/printing/printer.py</a></td>
+                <td>48</td>
+                <td>18</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="30 48">63%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_python_py.html">sympy/printing/python.py</a></td>
+                <td>57</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="42 57">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_repr_py.html">sympy/printing/repr.py</a></td>
+                <td>123</td>
+                <td>54</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="69 123">56%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_str_py.html">sympy/printing/str.py</a></td>
+                <td>497</td>
+                <td>178</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="319 497">64%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_tableform_py.html">sympy/printing/tableform.py</a></td>
+                <td>178</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="157 178">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_theanocode_py.html">sympy/printing/theanocode.py</a></td>
+                <td>126</td>
+                <td>90</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="36 126">29%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_printing_tree_py.html">sympy/printing/tree.py</a></td>
+                <td>37</td>
+                <td>37</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 37">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_release_py.html">sympy/release.py</a></td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 1">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_sandbox___init___py.html">sympy/sandbox/__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_sandbox_indexed_integrals_py.html">sympy/sandbox/indexed_integrals.py</a></td>
+                <td>30</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="27 30">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series___init___py.html">sympy/series/__init__.py</a></td>
+                <td>12</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 12">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_acceleration_py.html">sympy/series/acceleration.py</a></td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 17">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_approximants_py.html">sympy/series/approximants.py</a></td>
+                <td>47</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="39 47">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_formal_py.html">sympy/series/formal.py</a></td>
+                <td>606</td>
+                <td>92</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="514 606">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_fourier_py.html">sympy/series/fourier.py</a></td>
+                <td>161</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="120 161">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_gruntz_py.html">sympy/series/gruntz.py</a></td>
+                <td>303</td>
+                <td>64</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="239 303">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_kauers_py.html">sympy/series/kauers.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_limits_py.html">sympy/series/limits.py</a></td>
+                <td>95</td>
+                <td>16</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="79 95">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_limitseq_py.html">sympy/series/limitseq.py</a></td>
+                <td>83</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="67 83">81%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_order_py.html">sympy/series/order.py</a></td>
+                <td>254</td>
+                <td>38</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="216 254">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_residues_py.html">sympy/series/residues.py</a></td>
+                <td>29</td>
+                <td>4</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="25 29">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_sequences_py.html">sympy/series/sequences.py</a></td>
+                <td>373</td>
+                <td>99</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="274 373">73%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_series_py.html">sympy/series/series.py</a></td>
+                <td>5</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 5">40%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_series_series_class_py.html">sympy/series/series_class.py</a></td>
+                <td>43</td>
+                <td>21</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="22 43">51%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_sets___init___py.html">sympy/sets/__init__.py</a></td>
+                <td>4</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 4">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_sets_conditionset_py.html">sympy/sets/conditionset.py</a></td>
+                <td>30</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 30">60%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_sets_contains_py.html">sympy/sets/contains.py</a></td>
+                <td>13</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 13">46%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_sets_fancysets_py.html">sympy/sets/fancysets.py</a></td>
+                <td>748</td>
+                <td>127</td>
+                <td>10</td>
+                
+                <td class="right" data-ratio="621 748">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_sets_sets_py.html">sympy/sets/sets.py</a></td>
+                <td>884</td>
+                <td>231</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="653 884">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify___init___py.html">sympy/simplify/__init__.py</a></td>
+                <td>12</td>
+                <td>12</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 12">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_combsimp_py.html">sympy/simplify/combsimp.py</a></td>
+                <td>300</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="284 300">95%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_cse_main_py.html">sympy/simplify/cse_main.py</a></td>
+                <td>220</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="199 220">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_cse_opts_py.html">sympy/simplify/cse_opts.py</a></td>
+                <td>24</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 24">71%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_epathtools_py.html">sympy/simplify/epathtools.py</a></td>
+                <td>146</td>
+                <td>16</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="130 146">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_fu_py.html">sympy/simplify/fu.py</a></td>
+                <td>897</td>
+                <td>82</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="815 897">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_hyperexpand_py.html">sympy/simplify/hyperexpand.py</a></td>
+                <td>1221</td>
+                <td>184</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="1037 1221">85%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_hyperexpand_doc_py.html">sympy/simplify/hyperexpand_doc.py</a></td>
+                <td>9</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 9">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_powsimp_py.html">sympy/simplify/powsimp.py</a></td>
+                <td>334</td>
+                <td>29</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="305 334">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_radsimp_py.html">sympy/simplify/radsimp.py</a></td>
+                <td>442</td>
+                <td>59</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="383 442">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_ratsimp_py.html">sympy/simplify/ratsimp.py</a></td>
+                <td>101</td>
+                <td>14</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="87 101">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_simplify_py.html">sympy/simplify/simplify.py</a></td>
+                <td>582</td>
+                <td>68</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="514 582">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_sqrtdenest_py.html">sympy/simplify/sqrtdenest.py</a></td>
+                <td>311</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="277 311">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_traversaltools_py.html">sympy/simplify/traversaltools.py</a></td>
+                <td>14</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 14">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_simplify_trigsimp_py.html">sympy/simplify/trigsimp.py</a></td>
+                <td>487</td>
+                <td>277</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="210 487">43%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers___init___py.html">sympy/solvers/__init__.py</a></td>
+                <td>10</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 10">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_bivariate_py.html">sympy/solvers/bivariate.py</a></td>
+                <td>178</td>
+                <td>21</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="157 178">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_decompogen_py.html">sympy/solvers/decompogen.py</a></td>
+                <td>29</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 29">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_deutils_py.html">sympy/solvers/deutils.py</a></td>
+                <td>90</td>
+                <td>19</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="71 90">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_diophantine_py.html">sympy/solvers/diophantine.py</a></td>
+                <td>1191</td>
+                <td>92</td>
+                <td>4</td>
+                
+                <td class="right" data-ratio="1099 1191">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_inequalities_py.html">sympy/solvers/inequalities.py</a></td>
+                <td>298</td>
+                <td>33</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="265 298">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_ode_py.html">sympy/solvers/ode.py</a></td>
+                <td>3356</td>
+                <td>876</td>
+                <td>21</td>
+                
+                <td class="right" data-ratio="2480 3356">74%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_pde_py.html">sympy/solvers/pde.py</a></td>
+                <td>328</td>
+                <td>73</td>
+                <td>5</td>
+                
+                <td class="right" data-ratio="255 328">78%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_polysys_py.html">sympy/solvers/polysys.py</a></td>
+                <td>125</td>
+                <td>15</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="110 125">88%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_recurr_py.html">sympy/solvers/recurr.py</a></td>
+                <td>369</td>
+                <td>38</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="331 369">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_solvers_py.html">sympy/solvers/solvers.py</a></td>
+                <td>1512</td>
+                <td>199</td>
+                <td>15</td>
+                
+                <td class="right" data-ratio="1313 1512">87%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_solvers_solveset_py.html">sympy/solvers/solveset.py</a></td>
+                <td>485</td>
+                <td>54</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="431 485">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats___init___py.html">sympy/stats/__init__.py</a></td>
+                <td>16</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="16 16">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_crv_py.html">sympy/stats/crv.py</a></td>
+                <td>225</td>
+                <td>14</td>
+                <td>6</td>
+                
+                <td class="right" data-ratio="211 225">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_crv_types_py.html">sympy/stats/crv_types.py</a></td>
+                <td>358</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="348 358">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_drv_py.html">sympy/stats/drv.py</a></td>
+                <td>64</td>
+                <td>19</td>
+                <td>3</td>
+                
+                <td class="right" data-ratio="45 64">70%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_drv_types_py.html">sympy/stats/drv_types.py</a></td>
+                <td>28</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="26 28">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_error_prop_py.html">sympy/stats/error_prop.py</a></td>
+                <td>36</td>
+                <td>1</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="35 36">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_frv_py.html">sympy/stats/frv.py</a></td>
+                <td>183</td>
+                <td>13</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="170 183">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_frv_types_py.html">sympy/stats/frv_types.py</a></td>
+                <td>101</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="98 101">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_rv_py.html">sympy/stats/rv.py</a></td>
+                <td>390</td>
+                <td>33</td>
+                <td>9</td>
+                
+                <td class="right" data-ratio="357 390">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_rv_interface_py.html">sympy/stats/rv_interface.py</a></td>
+                <td>25</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="25 25">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_stats_symbolic_probability_py.html">sympy/stats/symbolic_probability.py</a></td>
+                <td>185</td>
+                <td>14</td>
+                <td>1</td>
+                
+                <td class="right" data-ratio="171 185">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies___init___py.html">sympy/strategies/__init__.py</a></td>
+                <td>7</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 7">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_branch___init___py.html">sympy/strategies/branch/__init__.py</a></td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 3">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_branch_core_py.html">sympy/strategies/branch/core.py</a></td>
+                <td>83</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="68 83">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_branch_tools_py.html">sympy/strategies/branch/tools.py</a></td>
+                <td>5</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="1 5">20%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_branch_traverse_py.html">sympy/strategies/branch/traverse.py</a></td>
+                <td>16</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="10 16">63%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_core_py.html">sympy/strategies/core.py</a></td>
+                <td>76</td>
+                <td>15</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 76">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_rl_py.html">sympy/strategies/rl.py</a></td>
+                <td>56</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="45 56">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_tools_py.html">sympy/strategies/tools.py</a></td>
+                <td>12</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="4 12">33%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_traverse_py.html">sympy/strategies/traverse.py</a></td>
+                <td>19</td>
+                <td>8</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 19">58%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_tree_py.html">sympy/strategies/tree.py</a></td>
+                <td>18</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 18">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_strategies_util_py.html">sympy/strategies/util.py</a></td>
+                <td>9</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 9">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor___init___py.html">sympy/tensor/__init__.py</a></td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 2">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_array___init___py.html">sympy/tensor/array/__init__.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_array_arrayop_py.html">sympy/tensor/array/arrayop.py</a></td>
+                <td>96</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="90 96">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_array_dense_ndim_array_py.html">sympy/tensor/array/dense_ndim_array.py</a></td>
+                <td>73</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="70 73">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_array_mutable_ndim_array_py.html">sympy/tensor/array/mutable_ndim_array.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_array_ndim_array_py.html">sympy/tensor/array/ndim_array.py</a></td>
+                <td>163</td>
+                <td>26</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="137 163">84%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_array_sparse_ndim_array_py.html">sympy/tensor/array/sparse_ndim_array.py</a></td>
+                <td>91</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="84 91">92%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_index_methods_py.html">sympy/tensor/index_methods.py</a></td>
+                <td>128</td>
+                <td>26</td>
+                <td>2</td>
+                
+                <td class="right" data-ratio="102 128">80%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_indexed_py.html">sympy/tensor/indexed.py</a></td>
+                <td>145</td>
+                <td>48</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="97 145">67%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_tensor_tensor_py.html">sympy/tensor/tensor.py</a></td>
+                <td>1760</td>
+                <td>156</td>
+                <td>13</td>
+                
+                <td class="right" data-ratio="1604 1760">91%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_unify___init___py.html">sympy/unify/__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_unify_core_py.html">sympy/unify/core.py</a></td>
+                <td>107</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="100 107">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_unify_rewrite_py.html">sympy/unify/rewrite.py</a></td>
+                <td>18</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="18 18">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_unify_usympy_py.html">sympy/unify/usympy.py</a></td>
+                <td>56</td>
+                <td>6</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="50 56">89%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities___init___py.html">sympy/utilities/__init__.py</a></td>
+                <td>7</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="0 7">0%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_autowrap_py.html">sympy/utilities/autowrap.py</a></td>
+                <td>382</td>
+                <td>113</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="269 382">70%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_benchmarking_py.html">sympy/utilities/benchmarking.py</a></td>
+                <td>127</td>
+                <td>124</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="3 127">2%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_codegen_py.html">sympy/utilities/codegen.py</a></td>
+                <td>769</td>
+                <td>57</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="712 769">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_decorator_py.html">sympy/utilities/decorator.py</a></td>
+                <td>80</td>
+                <td>34</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="46 80">58%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_enumerative_py.html">sympy/utilities/enumerative.py</a></td>
+                <td>321</td>
+                <td>46</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="275 321">86%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_exceptions_py.html">sympy/utilities/exceptions.py</a></td>
+                <td>28</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="17 28">61%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_iterables_py.html">sympy/utilities/iterables.py</a></td>
+                <td>768</td>
+                <td>142</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="626 768">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_lambdify_py.html">sympy/utilities/lambdify.py</a></td>
+                <td>223</td>
+                <td>41</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="182 223">82%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_magic_py.html">sympy/utilities/magic.py</a></td>
+                <td>8</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="6 8">75%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_mathml___init___py.html">sympy/utilities/mathml/__init__.py</a></td>
+                <td>20</td>
+                <td>7</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="13 20">65%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_memoization_py.html">sympy/utilities/memoization.py</a></td>
+                <td>32</td>
+                <td>21</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 32">34%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_misc_py.html">sympy/utilities/misc.py</a></td>
+                <td>170</td>
+                <td>96</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="74 170">44%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_pkgdata_py.html">sympy/utilities/pkgdata.py</a></td>
+                <td>18</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="5 18">28%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_pytest_py.html">sympy/utilities/pytest.py</a></td>
+                <td>75</td>
+                <td>13</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="62 75">83%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_randtest_py.html">sympy/utilities/randtest.py</a></td>
+                <td>77</td>
+                <td>16</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="61 77">79%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_runtests_py.html">sympy/utilities/runtests.py</a></td>
+                <td>1081</td>
+                <td>743</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="338 1081">31%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_source_py.html">sympy/utilities/source.py</a></td>
+                <td>18</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="9 18">50%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_utilities_timeutils_py.html">sympy/utilities/timeutils.py</a></td>
+                <td>51</td>
+                <td>40</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="11 51">22%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector___init___py.html">sympy/vector/__init__.py</a></td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="8 8">100%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_basisdependent_py.html">sympy/vector/basisdependent.py</a></td>
+                <td>188</td>
+                <td>19</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="169 188">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_coordsysrect_py.html">sympy/vector/coordsysrect.py</a></td>
+                <td>165</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="155 165">94%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_deloperator_py.html">sympy/vector/deloperator.py</a></td>
+                <td>60</td>
+                <td>2</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="58 60">97%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_dyadic_py.html">sympy/vector/dyadic.py</a></td>
+                <td>114</td>
+                <td>5</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="109 114">96%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_functions_py.html">sympy/vector/functions.py</a></td>
+                <td>147</td>
+                <td>10</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="137 147">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_orienters_py.html">sympy/vector/orienters.py</a></td>
+                <td>113</td>
+                <td>11</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="102 113">90%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_point_py.html">sympy/vector/point.py</a></td>
+                <td>55</td>
+                <td>4</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="51 55">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_scalar_py.html">sympy/vector/scalar.py</a></td>
+                <td>46</td>
+                <td>3</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="43 46">93%</td>
+            </tr>
+            
+            <tr class="file">
+                <td class="name left"><a href="sympy_vector_vector_py.html">sympy/vector/vector.py</a></td>
+                <td>181</td>
+                <td>9</td>
+                <td>0</td>
+                
+                <td class="right" data-ratio="172 181">95%</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.1</a>,
+            created at 2016-08-09 13:22
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
